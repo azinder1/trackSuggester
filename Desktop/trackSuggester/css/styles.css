@@ -14,5 +14,16 @@ body {
 
 .quiz:hover {
   text-decoration: underline;
-  color: blue
+  color: blue;
+}
+.quiz {
+  font-weight: bold;
+  text-shadow: px 2px ##0a0489;
+}
+
+#quiz  {
+  margin: 20px;
+  border-radius: 10px;
+  background-color: beige;
+  box-shadow: -2px -3px 5px #e6e6e6
 }
