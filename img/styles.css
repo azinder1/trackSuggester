@@ -51,22 +51,34 @@ button {
 .result {
   margin-top: 10%;
   margin-left: 50%;
-  height: 700px;
+  height: 500px;
   border: solid;
   border-radius: 10px;
-  color: lightgray;
+  border-color: rgb(0, 179, 180);
+}
+.result h1 {
+  color: black;
   font-family: italic;
   text-align: center;
   vertical-align: middle;
-  /* line-height: 700px; */
 }
 
-#css-Design {
+#css-Design h1{
   display:none;
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+
 }
 #ruby-Rails {
   display: none;
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
 }
 #c-Net {
   display: none;
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
 }

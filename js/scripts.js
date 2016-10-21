@@ -17,7 +17,6 @@ var yourTrack = function(answer) {
   else {
     alert ("Please fill out all the questions");
   }
-  return yourTrack();
 };
 //=================UI====================
 $(document).ready(function() {
@@ -34,6 +33,5 @@ $(document).ready(function() {
     var answer = yourTrack(sum).toString();
     $(answer).show();
     event.preventDefault();
-    //$("#answer").show(yourTrack(question1, question2, question3, question4, question5, question6));
   });
 });
