@@ -5,25 +5,19 @@ function yourTrack (question1, question2, question3, question4, question5, quest
 
   if (sum) {
     if (sum >= 6 && sum < 14) {
-      return "CSS-Design";
+      return "#css-Design";
     }
     else if (sum >= 14 && sum <19) {
-      return "Ruby-Rails";
+      return "#ruby-Rails";
     }
     else {
-      return "C-NET"
+      return "#c-Net";
     }
   }
   else {
-    alert ("Please fill out all the questions")
+    alert ("Please fill out all the questions");
   }
 };
-
-
-
-
-
-
 
 //=================UI====================
 $(document).ready(function() {
@@ -34,7 +28,8 @@ $(document).ready(function() {
     var question4 = parseInt($("input:radio[name=question4]:checked").val());
     var question5 = parseInt($("input:radio[name=question5]:checked").val());
     var question6 = parseInt($("input:radio[name=question6]:checked").val());
+
     event.preventDefault();
-    $ ("#result").text(yourTrack(question1, question2, question3, question4, question5, question6));
+    $("#result").text(yourTrack(question1, question2, question3, question4, question5, question6));
   });
 });

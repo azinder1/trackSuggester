@@ -4,7 +4,7 @@ body {
 }
 
 #trackSelector {
-  background-color: black;
+  background-color: royalblue;
   color: white;
   padding: 20px 5px;
   height: 300px;
@@ -13,12 +13,9 @@ body {
 .header h1 {
   font-size: 40px;
   vertical-align: middle;
-  line-height: 70px;
+  line-height: 200px;
 }
 
-.quiz:hover {
-  color: blue;
-}
 .quiz {
   font-weight: bold;
   text-shadow: px 2px ##0a0489;
@@ -31,6 +28,12 @@ body {
 .important {
   font-size:20px;
 }
+.directions {
+  font-style: italic;
+  color: red;
+  text-decoration: underline;
+}
+
 #quiz  {
   margin: 20px;
   border-radius: 10px;
@@ -47,5 +50,15 @@ body {
   font-family: italic;
   text-align: center;
   vertical-align: middle;
-  line-height: 700px;
+  /* line-height: 700px; */
+}
+
+#css-Design {
+  display:none;
+}
+#ruby-Rails {
+  display: none;
+}
+#c-Net {
+  display: none;
 }
