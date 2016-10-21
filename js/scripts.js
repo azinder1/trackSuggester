@@ -3,14 +3,19 @@
 function yourTrack (question1, question2, question3, question4, question5, question6) {
   var sum = question1 + question2 + question3 + question4 + question5 + question6;
 
-  if (sum >=6 && sum < 14) {
-    return "CSS-Design";
+  if (sum) {
+    if (sum >= 6 && sum < 14) {
+      return "CSS-Design";
+    }
+    else if (sum >= 14 && sum <19) {
+      return "Ruby-Rails";
+    }
+    else {
+      return "C-NET"
+    }
   }
-  else if (sum >= 14 && sum <19) {
-    return "Ruby-Rails";
-  }
-  else if(sum >= 19 && sum <= 24) {
-    return "C-NET"
+  else {
+    alert ("Please fill out all the questions")
   }
 };
 

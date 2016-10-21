@@ -7,14 +7,13 @@ body {
   background-color: black;
   color: white;
   padding: 20px 5px;
+  height: 300px;
 }
 
 .header h1 {
   font-size: 40px;
-  back
-}
-.header h2 {
-  font-size: 25px
+  vertical-align: middle;
+  line-height: 70px;
 }
 
 .quiz:hover {
@@ -25,10 +24,28 @@ body {
   text-shadow: px 2px ##0a0489;
   text-decoration: underline;
 }
-
+.row h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.important {
+  font-size:20px;
+}
 #quiz  {
   margin: 20px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: -2px -3px 5px #e6e6e6
+  box-shadow: -2px -3px 5px #e6e6e6;
+}
+#result {
+  margin-top: 10%;
+  margin-left: 50%;
+  height: 700px;
+  border: solid;
+  border-radius: 10px;
+  color: lightgray;
+  font-family: italic;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 700px;
 }
