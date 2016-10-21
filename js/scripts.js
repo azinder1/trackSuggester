@@ -31,6 +31,8 @@ $(document).ready(function() {
     var sum = question1 + question2 + question3 + question4 + question5 + question6;
 
     var answer = yourTrack(sum).toString();
+
+    $(".hide-suggestion").hide();
     $(answer).show();
     event.preventDefault();
   });
