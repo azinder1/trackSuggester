@@ -1,4 +1,4 @@
-# _{Application Name}_
+# _Epicodus Track Suggester_
 
 #### _Survey to decide code courses, October 21st, 2016_
 
@@ -18,7 +18,7 @@ _None_
 
 ## Support and contact details
 
-_Email Adam Zinder at:adam.zinder@gmail.com _
+_Email Adam Zinder at: adam.zinder@gmail.com _
 
 ## Technologies Used
 
